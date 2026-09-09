@@ -32,10 +32,10 @@ Earlier, a CNN for object amplification in IBM Watson PowerAI Vision.
 
 5 merged upstream across 3 repos. Updated 2026-09-10.
 
-| Repo | Merged |
-|---|---|
-| [unslothai/unsloth](https://github.com/unslothai/unsloth) | [3 merged](https://github.com/unslothai/unsloth/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) |
-| [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | [1 merged](https://github.com/e2b-dev/E2B/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) |
-| [twentyhq/twenty](https://github.com/twentyhq/twenty) | [1 merged](https://github.com/twentyhq/twenty/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) |
+| Repo | Merged | Summary |
+|---|---|---|
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | [3 merged](https://github.com/unslothai/unsloth/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Studio keeps compare-pane settings and saved context when the chat is on a snapshot path. Queued prompts stay queued after the user stops generation. |
+| [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | [1 merged](https://github.com/e2b-dev/E2B/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Sandbox create options are validated before the client requires an API key, so bad lifecycle config raises InvalidArgumentError instead of AuthenticationError. |
+| [twentyhq/twenty](https://github.com/twentyhq/twenty) | [1 merged](https://github.com/twentyhq/twenty/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Percentage fields still persist when the typed value includes a trailing percent sign. |
 
 <!-- oss-wins:end -->
