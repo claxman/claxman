@@ -10,9 +10,9 @@ AI researcher and Principal AI Engineer. Indian, based in Dubai. My work sits wh
 
 | Repo | Merged | Summary |
 |---|---|---|
-| [unslothai/unsloth](https://github.com/unslothai/unsloth) | [3 merged](https://github.com/unslothai/unsloth/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Recover compare-pane settings when the chat is on a snapshot path; Restore saved context after Switch Back to a snapshot-path model; Keep queued prompts when the user stops generation. |
-| [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | [1 merged](https://github.com/e2b-dev/E2B/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Validate sandbox create options before requiring an API key. |
-| [twentyhq/twenty](https://github.com/twentyhq/twenty) | [1 merged](https://github.com/twentyhq/twenty/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Persist percentage field values that still include a trailing percent sign. |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | [3 merged](https://github.com/unslothai/unsloth/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Keeps chat and compare-pane state intact across snapshot-path models and user interruptions, so switching models or stopping generation does not lose saved context, settings, or queued prompts. |
+| [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | [1 merged](https://github.com/e2b-dev/E2B/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Sandbox creation now checks the options you pass before it asks for an API key, so a bad config fails fast with a clear error instead of an unrelated auth complaint. |
+| [twentyhq/twenty](https://github.com/twentyhq/twenty) | [1 merged](https://github.com/twentyhq/twenty/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Percentage fields now save correctly when a user types a value with a trailing percent sign, so entering "50%" no longer gets dropped or mangled on write. |
 
 <!-- oss-wins:end -->
 
