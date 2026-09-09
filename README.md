@@ -14,9 +14,9 @@ Earlier, a CNN for object amplification in IBM Watson PowerAI Vision.
 
 ## Systems I've built
 
-**CiaraAI.** Stateful agent platform running autonomous multi-step workflows across CRM, lead routing, scheduling, payments, voice, WhatsApp, and chat. 200K+ interactions, 97% automation, sub-2s responses, about 70% lower cost than the stack it replaced.
+**[CiaraAI](https://ciaraai.com).** Stateful agent platform running autonomous multi-step workflows across CRM, lead routing, scheduling, payments, voice, WhatsApp, and chat. 200K+ interactions, 97% automation, sub-2s responses, about 70% lower cost than the stack it replaced.
 
-**[Claws](https://github.com/Laxcorp-Research/claws).** Visual multi-agent orchestration on the OpenClaw runtime for manager-worker-reviewer teams. Workflow definitions compile to executable agent configs with concurrent execution, tool integrations, runtime monitoring, and failure recovery.
+**[Claws](https://buildclaws.ai).** Visual multi-agent orchestration on the OpenClaw runtime for manager-worker-reviewer teams. Workflow definitions compile to executable agent configs with concurrent execution, tool integrations, runtime monitoring, and failure recovery.
 
 **[Raven](https://github.com/Laxcorp-Research/project-raven).** Open-source AI meeting copilot: system audio plus mic capture, WebRTC AEC3 echo cancellation, real-time transcription, live assistance. 400+ stars.
 
