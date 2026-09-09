@@ -2,6 +2,20 @@
 
 AI researcher and Principal AI Engineer. Indian, based in Dubai. My work sits where post-training, agents, evaluation, and inference meet: training open-weight models to do specific jobs well, building the systems that run them in production, and measuring whether they actually got better. I contribute upstream to the projects that stack depends on.
 
+<!-- oss-wins:start -->
+
+## Open-source contributions
+
+5 merged upstream across 3 repos. Updated 2026-09-10.
+
+| Repo | Merged | Summary |
+|---|---|---|
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | [3 merged](https://github.com/unslothai/unsloth/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Recover compare-pane settings when the chat is on a snapshot path; Restore saved context after Switch Back to a snapshot-path model; Keep queued prompts when the user stops generation. |
+| [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | [1 merged](https://github.com/e2b-dev/E2B/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Validate sandbox create options before requiring an API key. |
+| [twentyhq/twenty](https://github.com/twentyhq/twenty) | [1 merged](https://github.com/twentyhq/twenty/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Persist percentage field values that still include a trailing percent sign. |
+
+<!-- oss-wins:end -->
+
 ## Research and models
 
 Fine-tuned and shipped Qwen3.6-27B with QLoRA/SFT, then on-policy context distillation from a 24.8K-token expert-rule corpus. Merged adapters into a standalone bf16 checkpoint and served it on H100s with vLLM at 73K context.
@@ -25,17 +39,3 @@ Earlier, a CNN for object amplification in IBM Watson PowerAI Vision.
 **Stack.** Python, TypeScript, PyTorch, Unsloth, vLLM, LangGraph, PostgreSQL, Kubernetes, AWS, GCP. [Claude Certified Architect (Foundations)](https://www.credly.com/badges/0ce8c344-b7bd-4cbc-bcdb-1a77865319bf).
 
 [LinkedIn](https://linkedin.com/in/chaitanyalaxman) · [@dantelaxman](https://x.com/dantelaxman) · chaitanyalaxman118@gmail.com
-
-<!-- oss-wins:start -->
-
-## Open-source contributions
-
-5 merged upstream across 3 repos. Updated 2026-09-10.
-
-| Repo | Merged | Summary |
-|---|---|---|
-| [unslothai/unsloth](https://github.com/unslothai/unsloth) | [3 merged](https://github.com/unslothai/unsloth/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Studio keeps compare-pane settings and saved context when the chat is on a snapshot path. Queued prompts stay queued after the user stops generation. |
-| [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | [1 merged](https://github.com/e2b-dev/E2B/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Sandbox create options are validated before the client requires an API key, so bad lifecycle config raises InvalidArgumentError instead of AuthenticationError. |
-| [twentyhq/twenty](https://github.com/twentyhq/twenty) | [1 merged](https://github.com/twentyhq/twenty/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Percentage fields still persist when the typed value includes a trailing percent sign. |
-
-<!-- oss-wins:end -->
