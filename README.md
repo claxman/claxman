@@ -6,11 +6,11 @@ AI researcher and Principal AI Engineer. Indian, based in Dubai. My work sits wh
 
 ## Open-source contributions
 
-5 merged upstream across 3 repos. Updated 2026-09-10.
+6 merged upstream across 3 repos. Updated 2026-09-10.
 
 | Repo | Merged | Summary |
 |---|---|---|
-| [unslothai/unsloth](https://github.com/unslothai/unsloth) | [3 merged](https://github.com/unslothai/unsloth/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Keeps chat and compare-pane state intact across snapshot-path models and user interruptions, so switching models or stopping generation does not lose saved context, settings, or queued prompts. |
+| [unslothai/unsloth](https://github.com/unslothai/unsloth) | [4 merged](https://github.com/unslothai/unsloth/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Keeps studio sessions from losing state. Saved API keys, compare-pane settings, and prior context survive model switches and snapshot paths, and prompts you queued stay put when you stop a generation. |
 | [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | [1 merged](https://github.com/e2b-dev/E2B/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Sandbox creation now checks the options you pass before it asks for an API key, so a bad config fails fast with a clear error instead of an unrelated auth complaint. |
 | [twentyhq/twenty](https://github.com/twentyhq/twenty) | [1 merged](https://github.com/twentyhq/twenty/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Percentage fields now save correctly when a user types a value with a trailing percent sign, so entering "50%" no longer gets dropped or mangled on write. |
 
