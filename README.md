@@ -6,12 +6,13 @@ AI researcher and Principal AI Engineer. Indian, based in Dubai. My work sits wh
 
 ## Open-source contributions
 
-8 merged upstream across 3 repos. Updated 2026-09-15.
+9 merged upstream across 4 repos. Updated 2026-09-22.
 
 | Repo | Merged | Summary |
 |---|---|---|
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | [6 merged](https://github.com/unslothai/unsloth/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | These changes stop the chat and studio UI from losing state: queued or stopped prompts, saved context, compare-pane settings, and sandbox files survive interruptions, model switches, and snapshot paths, and the CLI API key is reused across runs. |
 | [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | [1 merged](https://github.com/e2b-dev/E2B/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Sandbox creation now checks the options you pass before it asks for an API key, so a bad config fails fast with a clear error instead of an unrelated auth complaint. |
+| [google/adk-python](https://github.com/google/adk-python) | [1 merged](https://github.com/google/adk-python/pull/7039) | Adds a test that LlmAgent still accepts candidate_count on generate_content_config. |
 | [twentyhq/twenty](https://github.com/twentyhq/twenty) | [1 merged](https://github.com/twentyhq/twenty/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Percentage fields now save correctly when a user types a value with a trailing percent sign, so entering "50%" no longer gets dropped or mangled on write. |
 
 <!-- oss-wins:end -->
