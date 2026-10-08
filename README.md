@@ -6,12 +6,12 @@ AI researcher and Principal AI Engineer. Indian, based in Dubai. My work sits wh
 
 ## Open-source contributions
 
-19 merged upstream across 4 repos. Updated 2026-10-06.
+20 merged upstream across 4 repos. Updated 2026-10-08.
 
 | Repo | Merged | Summary |
 |---|---|---|
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | [12 merged](https://github.com/unslothai/unsloth/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Fixes rough edges in the chat and studio UI: stopped or queued prompts stay put, snapshot-path models keep their context and compare settings, and uninstall, eject, and streaming paths behave more predictably. |
-| [google/adk-python](https://github.com/google/adk-python) | [4 merged](https://github.com/google/adk-python/pulls?q=is%3Apr+author%3Aclaxman) | Fixes edge cases across platforms and auth (Windows path handling, public OIDC clients, unsupported candidate counts) and passes MCP grounding metadata through to events so callers see where model answers came from. |
+| [google/adk-python](https://github.com/google/adk-python) | [5 merged](https://github.com/google/adk-python/pulls?q=is%3Apr+author%3Aclaxman) | Fixes edge cases across agent config, auth, MCP, and LiteLlm so ADK fails early on bad settings (candidate_count) and behaves correctly in less-common setups (Windows VCS paths, public OIDC clients, non-Gemma tool-result roles, MCP grounding metadata). |
 | [twentyhq/twenty](https://github.com/twentyhq/twenty) | [2 merged](https://github.com/twentyhq/twenty/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Fixes edge cases around the percent sign: percentage field values entered with a trailing "%" now save correctly, and array containsIlike filters treat "%" as a SQL wildcard as intended. |
 | [e2b-dev/E2B](https://github.com/e2b-dev/E2B) | [1 merged](https://github.com/e2b-dev/E2B/pulls?q=is%3Apr%20author%3Aclaxman%20is%3Amerged) | Sandbox creation now checks the options you pass before it asks for an API key, so a bad config fails fast with a clear error instead of an unrelated auth complaint. |
 
